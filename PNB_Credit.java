@@ -19,6 +19,7 @@ private static String dateToStringConv(Date date){
 	            System.out.println("inside dateToStringConv()");
                 DateFormat dateFormat = new SimpleDateFormat("yyyy-mm-dd hh:mm:ss");  
                 String strDate = dateFormat.format(date);  
+				System.out.println("********End of  dateToStringConv()******");
                 return strDate; 
         
    }  
